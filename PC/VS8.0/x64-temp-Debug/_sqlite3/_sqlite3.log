@@ -1,5 +1,65 @@
-﻿Build started 12/02/2014 14:18:12.
+﻿Build started 12/02/2014 16:23:43.
+     1>Project "C:\workspaces\Python276\PC\VS8.0\_sqlite3.vcxproj" on node 2 (Rebuild target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /I"..\..\Tools\sqlite-3.6.21" /I..\..\Include /I..\..\PC /Zi /nologo /W3 /WX- /Od /D "MODULE_NAME=\"sqlite3\"" /D _WIN64 /D _M_X64 /D Py_BUILD_CORE_MODULE /D _DEBUG /D _WIN32 /D _WINDLL /GF /Gm- /MDd /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"C:\workspaces\Python276\PC\VS8.0\x64-temp-Debug\_sqlite3\\" /Fd"C:\workspaces\Python276\PC\VS8.0\x64-temp-Debug\_sqlite3\vc120.pdb" /Gd /TC /errorReport:prompt /USECL:MS_OPTERON /GS- ..\..\Modules\_sqlite\cache.c ..\..\Modules\_sqlite\connection.c ..\..\Modules\_sqlite\cursor.c ..\..\Modules\_sqlite\microprotocols.c ..\..\Modules\_sqlite\module.c ..\..\Modules\_sqlite\prepare_protocol.c ..\..\Modules\_sqlite\row.c ..\..\Modules\_sqlite\statement.c ..\..\Modules\_sqlite\util.c
+     1>cl : Command line warning D9025: overriding '/GS' with '/GS-'
+         cache.c
+     1>c:\workspaces\python276\include\pymath.h(22): warning C4273: 'round' : inconsistent dll linkage
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\math.h(516) : see previous definition of 'round'
+         connection.c
+     1>c:\workspaces\python276\include\pymath.h(22): warning C4273: 'round' : inconsistent dll linkage
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\math.h(516) : see previous definition of 'round'
+     1>..\..\Modules\_sqlite\connection.c(562): warning C4244: 'function' : conversion from 'Py_ssize_t' to 'int', possible loss of data
+         cursor.c
+     1>c:\workspaces\python276\include\pymath.h(22): warning C4273: 'round' : inconsistent dll linkage
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\math.h(516) : see previous definition of 'round'
+         microprotocols.c
+     1>c:\workspaces\python276\include\pymath.h(22): warning C4273: 'round' : inconsistent dll linkage
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\math.h(516) : see previous definition of 'round'
+         module.c
+     1>c:\workspaces\python276\include\pymath.h(22): warning C4273: 'round' : inconsistent dll linkage
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\math.h(516) : see previous definition of 'round'
+         prepare_protocol.c
+     1>c:\workspaces\python276\include\pymath.h(22): warning C4273: 'round' : inconsistent dll linkage
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\math.h(516) : see previous definition of 'round'
+         row.c
+     1>c:\workspaces\python276\include\pymath.h(22): warning C4273: 'round' : inconsistent dll linkage
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\math.h(516) : see previous definition of 'round'
+     1>..\..\Modules\_sqlite\row.c(92): warning C4244: '=' : conversion from 'Py_ssize_t' to 'int', possible loss of data
+     1>..\..\Modules\_sqlite\row.c(150): warning C4244: '=' : conversion from 'Py_ssize_t' to 'int', possible loss of data
+         statement.c
+     1>c:\workspaces\python276\include\pymath.h(22): warning C4273: 'round' : inconsistent dll linkage
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\math.h(516) : see previous definition of 'round'
+     1>..\..\Modules\_sqlite\statement.c(173): warning C4244: 'function' : conversion from 'Py_ssize_t' to 'int', possible loss of data
+     1>..\..\Modules\_sqlite\statement.c(178): warning C4244: 'function' : conversion from 'Py_ssize_t' to 'int', possible loss of data
+     1>..\..\Modules\_sqlite\statement.c(183): warning C4244: 'function' : conversion from 'Py_ssize_t' to 'int', possible loss of data
+     1>..\..\Modules\_sqlite\statement.c(230): warning C4244: '=' : conversion from 'Py_ssize_t' to 'int', possible loss of data
+     1>..\..\Modules\_sqlite\statement.c(232): warning C4244: '=' : conversion from 'Py_ssize_t' to 'int', possible loss of data
+     1>..\..\Modules\_sqlite\statement.c(234): warning C4244: '=' : conversion from 'Py_ssize_t' to 'int', possible loss of data
+         util.c
+     1>c:\workspaces\python276\include\pymath.h(22): warning C4273: 'round' : inconsistent dll linkage
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\math.h(516) : see previous definition of 'round'
+     1>..\..\Modules\_sqlite\util.c(135): warning C4244: 'function' : conversion from 'sqlite_int64' to 'long', possible loss of data
+         Generating Code...
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(1186,5): warning MSB8012: TargetPath(C:\workspaces\Python276\PC\VS8.0\\amd64\_sqlite3.dll) does not match the Linker's OutputFile property value (C:\workspaces\Python276\PC\VS8.0\amd64\_sqlite3_d.pyd). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(1187,5): warning MSB8012: TargetExt(.dll) does not match the Linker's OutputFile property value (.pyd). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(1188,5): warning MSB8012: TargetName(_sqlite3) does not match the Linker's OutputFile property value (_sqlite3_d). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"C:\workspaces\Python276\PC\VS8.0\\amd64\_sqlite3_d.pyd" /INCREMENTAL:NO /NOLOGO /LIBPATH:C:\workspaces\Python276\PC\VS8.0\\amd64\ kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST:NO /DEBUG /PDB:"C:\workspaces\Python276\PC\VS8.0\\amd64\_sqlite3_d.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /BASE:"0x1e180000" /DYNAMICBASE:NO /IMPLIB:"C:\workspaces\Python276\PC\VS8.0\\amd64\_sqlite3.lib" /MACHINE:X64 /DLL "C:\workspaces\Python276\PC\VS8.0\x64-temp-Debug\_sqlite3\cache.obj"
+         "C:\workspaces\Python276\PC\VS8.0\x64-temp-Debug\_sqlite3\connection.obj"
+         "C:\workspaces\Python276\PC\VS8.0\x64-temp-Debug\_sqlite3\cursor.obj"
+         "C:\workspaces\Python276\PC\VS8.0\x64-temp-Debug\_sqlite3\microprotocols.obj"
+         "C:\workspaces\Python276\PC\VS8.0\x64-temp-Debug\_sqlite3\module.obj"
+         "C:\workspaces\Python276\PC\VS8.0\x64-temp-Debug\_sqlite3\prepare_protocol.obj"
+         "C:\workspaces\Python276\PC\VS8.0\x64-temp-Debug\_sqlite3\row.obj"
+         "C:\workspaces\Python276\PC\VS8.0\x64-temp-Debug\_sqlite3\statement.obj"
+         "C:\workspaces\Python276\PC\VS8.0\x64-temp-Debug\_sqlite3\util.obj"
+         C:\workspaces\Python276\PC\VS8.0\amd64\python27_d.lib
+         C:\workspaces\Python276\PC\VS8.0\amd64\sqlite3.lib
+            Creating library C:\workspaces\Python276\PC\VS8.0\\amd64\_sqlite3.lib and object C:\workspaces\Python276\PC\VS8.0\\amd64\_sqlite3.exp
+         _sqlite3.vcxproj -> C:\workspaces\Python276\PC\VS8.0\\amd64\_sqlite3.dll
+     1>Done Building Project "C:\workspaces\Python276\PC\VS8.0\_sqlite3.vcxproj" (Rebuild target(s)).
 
 Build succeeded.
 
-Time Elapsed 00:00:00.01
+Time Elapsed 00:00:01.53

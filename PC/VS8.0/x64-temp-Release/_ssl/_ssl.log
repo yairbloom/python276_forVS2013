@@ -1,5 +1,18 @@
-﻿Build started 12/02/2014 14:27:59.
+﻿Build started 12/02/2014 16:15:22.
+     1>Project "C:\workspaces\Python276\PC\VS8.0\_ssl.vcxproj" on node 3 (Build target(s)).
+     1>PreBuildEvent:
+         cd "C:\workspaces\Python276\PC\VS8.0\"
+         "" build_ssl.py Release x64 -a
+         
+         :VCEnd
+         '""' is not recognized as an internal or external command,
+         operable program or batch file.
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppCommon.targets(122,5): error MSB3073: The command "cd "C:\workspaces\Python276\PC\VS8.0\"
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppCommon.targets(122,5): error MSB3073: "" build_ssl.py Release x64 -a
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppCommon.targets(122,5): error MSB3073: 
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppCommon.targets(122,5): error MSB3073: :VCEnd" exited with code 9009.
+     1>Done Building Project "C:\workspaces\Python276\PC\VS8.0\_ssl.vcxproj" (Build target(s)) -- FAILED.
 
-Build succeeded.
+Build FAILED.
 
-Time Elapsed 00:00:00.00
+Time Elapsed 00:00:00.10

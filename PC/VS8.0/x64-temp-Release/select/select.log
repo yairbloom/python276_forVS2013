@@ -1,5 +1,22 @@
-﻿Build started 12/02/2014 14:27:58.
+﻿Build started 12/02/2014 16:14:00.
+     1>Project "C:\workspaces\Python276\PC\VS8.0\select.vcxproj" on node 2 (Rebuild target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /I..\..\Include /I..\..\PC /Zi /nologo /W3 /WX- /O2 /Ob1 /Oi /GL /D _WIN64 /D _M_X64 /D Py_BUILD_CORE_MODULE /D NDEBUG /D _WIN32 /D _WINDLL /GF /Gm- /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"C:\workspaces\Python276\PC\VS8.0\x64-temp-Release\select\\" /Fd"C:\workspaces\Python276\PC\VS8.0\x64-temp-Release\select\vc120.pdb" /Gd /TC /errorReport:prompt /USECL:MS_OPTERON /GS- ..\..\Modules\selectmodule.c
+     1>cl : Command line warning D9025: overriding '/GS' with '/GS-'
+         selectmodule.c
+     1>c:\workspaces\python276\include\pymath.h(22): warning C4273: 'round' : inconsistent dll linkage
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\math.h(516) : see previous definition of 'round'
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(1186,5): warning MSB8012: TargetPath(C:\workspaces\Python276\PC\VS8.0\\amd64\select.dll) does not match the Linker's OutputFile property value (C:\workspaces\Python276\PC\VS8.0\amd64\select.pyd). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(1187,5): warning MSB8012: TargetExt(.dll) does not match the Linker's OutputFile property value (.pyd). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"C:\workspaces\Python276\PC\VS8.0\\amd64\select.pyd" /INCREMENTAL:NO /NOLOGO /LIBPATH:C:\workspaces\Python276\PC\VS8.0\\amd64\ ws2_32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /NODEFAULTLIB:libc /MANIFEST:NO /DEBUG /PDB:"C:\workspaces\Python276\PC\VS8.0\\amd64\select.pdb" /SUBSYSTEM:WINDOWS /LTCG /TLBID:1 /BASE:"0x1D110000" /DYNAMICBASE:NO /IMPLIB:"C:\workspaces\Python276\PC\VS8.0\\amd64\select.lib" /MACHINE:X64 /DLL "C:\workspaces\Python276\PC\VS8.0\x64-temp-Release\select\selectmodule.obj"
+         C:\workspaces\Python276\PC\VS8.0\amd64\python27.lib
+            Creating library C:\workspaces\Python276\PC\VS8.0\\amd64\select.lib and object C:\workspaces\Python276\PC\VS8.0\\amd64\select.exp
+         Generating code
+         Finished generating code
+         select.vcxproj -> C:\workspaces\Python276\PC\VS8.0\\amd64\select.dll
+     1>Done Building Project "C:\workspaces\Python276\PC\VS8.0\select.vcxproj" (Rebuild target(s)).
 
 Build succeeded.
 
-Time Elapsed 00:00:00.01
+Time Elapsed 00:00:00.54

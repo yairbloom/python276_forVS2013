@@ -1,5 +1,23 @@
-﻿Build started 12/02/2014 14:27:59.
+﻿Build started 12/02/2014 16:13:28.
+     1>Project "C:\workspaces\Python276\PC\VS8.0\make_versioninfo.vcxproj" on node 2 (Rebuild target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I..\..\Include /I..\..\PC /Zi /nologo /W3 /WX- /O2 /Ob1 /Oi /Oy- /D _CONSOLE /D NDEBUG /D _WIN32 /D _MBCS /GF /Gm- /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"C:\workspaces\Python276\PC\VS8.0\Win32-temp-Release\make_versioninfo\\" /Fd"C:\workspaces\Python276\PC\VS8.0\Win32-temp-Release\make_versioninfo\vc120.pdb" /Gd /TC /analyze- /errorReport:prompt ..\make_versioninfo.c
+         make_versioninfo.c
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\workspaces\Python276\PC\VS8.0\make_versioninfo.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:C:\workspaces\Python276\PC\VS8.0\\ kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\workspaces\Python276\PC\VS8.0\make_versioninfo.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /BASE:"0x1d000000" /DYNAMICBASE:NO /IMPLIB:"C:\workspaces\Python276\PC\VS8.0\\make_versioninfo.lib" /MACHINE:X86 /SAFESEH "C:\workspaces\Python276\PC\VS8.0\Win32-temp-Release\make_versioninfo\make_versioninfo.obj"
+         make_versioninfo.vcxproj -> C:\workspaces\Python276\PC\VS8.0\\make_versioninfo.exe
+       CustomBuildStep:
+         cd C:\workspaces\Python276\PC\VS8.0\
+         make_versioninfo.exe > ..\..\PC\pythonnt_rc.h
+         
+         :VCEnd
+       PostBuildEvent:
+         cd C:\workspaces\Python276\PC\VS8.0\
+         make_versioninfo.exe > ..\..\PC\python_nt.h
+         
+         :VCEnd
+     1>Done Building Project "C:\workspaces\Python276\PC\VS8.0\make_versioninfo.vcxproj" (Rebuild target(s)).
 
 Build succeeded.
 
-Time Elapsed 00:00:00.01
+Time Elapsed 00:00:00.89

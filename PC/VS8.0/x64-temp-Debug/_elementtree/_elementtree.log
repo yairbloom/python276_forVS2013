@@ -1,5 +1,41 @@
-﻿Build started 12/02/2014 14:18:12.
+﻿Build started 12/02/2014 16:23:42.
+     1>Project "C:\workspaces\Python276\PC\VS8.0\_elementtree.vcxproj" on node 4 (Rebuild target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /I..\..\Modules\expat /I..\..\Include /I..\..\PC /Zi /nologo /W3 /WX- /Od /D XML_NS /D XML_DTD /D BYTEORDER=1234 /D XML_CONTEXT_BYTES=1024 /D USE_PYEXPAT_CAPI /D XML_STATIC /D HAVE_MEMMOVE /D _WIN64 /D _M_X64 /D Py_BUILD_CORE_MODULE /D _DEBUG /D _WIN32 /D _WINDLL /GF /Gm- /MDd /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"C:\workspaces\Python276\PC\VS8.0\x64-temp-Debug\_elementtree\\" /Fd"C:\workspaces\Python276\PC\VS8.0\x64-temp-Debug\_elementtree\vc120.pdb" /Gd /TC /errorReport:prompt /USECL:MS_OPTERON /GS- ..\..\Modules\_elementtree.c ..\..\Modules\expat\xmlparse.c ..\..\Modules\expat\xmlrole.c ..\..\Modules\expat\xmltok.c
+     1>cl : Command line warning D9025: overriding '/GS' with '/GS-'
+         _elementtree.c
+     1>c:\workspaces\python276\include\pymath.h(22): warning C4273: 'round' : inconsistent dll linkage
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\math.h(516) : see previous definition of 'round'
+     1>..\..\Modules\_elementtree.c(696): warning C4244: 'function' : conversion from 'Py_uintptr_t' to 'long', possible loss of data
+     1>..\..\Modules\_elementtree.c(1251): warning C4244: '=' : conversion from 'Py_ssize_t' to 'int', possible loss of data
+     1>..\..\Modules\_elementtree.c(1384): warning C4244: 'function' : conversion from 'Py_ssize_t' to 'int', possible loss of data
+     1>..\..\Modules\_elementtree.c(1426): warning C4244: '+=' : conversion from 'Py_ssize_t' to 'int', possible loss of data
+     1>..\..\Modules\_elementtree.c(2084): warning C4267: 'initializing' : conversion from 'size_t' to 'int', possible loss of data
+     1>..\..\Modules\_elementtree.c(2245): warning C4267: 'function' : conversion from 'size_t' to 'int', possible loss of data
+     1>..\..\Modules\_elementtree.c(2341): warning C4267: 'function' : conversion from 'size_t' to 'int', possible loss of data
+     1>..\..\Modules\_elementtree.c(2346): warning C4267: 'function' : conversion from 'size_t' to 'int', possible loss of data
+     1>..\..\Modules\_elementtree.c(2377): warning C4267: 'function' : conversion from 'size_t' to 'int', possible loss of data
+     1>..\..\Modules\_elementtree.c(2395): warning C4267: 'function' : conversion from 'size_t' to 'int', possible loss of data
+     1>..\..\Modules\_elementtree.c(2396): warning C4267: 'function' : conversion from 'size_t' to 'int', possible loss of data
+     1>..\..\Modules\_elementtree.c(2684): warning C4244: 'function' : conversion from 'Py_ssize_t' to 'int', possible loss of data
+         xmlparse.c
+     1>..\..\Modules\expat\xmlparse.c(1844): warning C4244: 'return' : conversion from '__int64' to 'XML_Index', possible loss of data
+         xmlrole.c
+         xmltok.c
+         Generating Code...
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(1186,5): warning MSB8012: TargetPath(C:\workspaces\Python276\PC\VS8.0\\amd64\_elementtree.dll) does not match the Linker's OutputFile property value (C:\workspaces\Python276\PC\VS8.0\amd64\_elementtree_d.pyd). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(1187,5): warning MSB8012: TargetExt(.dll) does not match the Linker's OutputFile property value (.pyd). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(1188,5): warning MSB8012: TargetName(_elementtree) does not match the Linker's OutputFile property value (_elementtree_d). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"C:\workspaces\Python276\PC\VS8.0\\amd64\_elementtree_d.pyd" /INCREMENTAL:NO /NOLOGO /LIBPATH:C:\workspaces\Python276\PC\VS8.0\\amd64\ kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST:NO /DEBUG /PDB:"C:\workspaces\Python276\PC\VS8.0\\amd64\_elementtree_d.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /BASE:"0x1D100000" /DYNAMICBASE:NO /IMPLIB:"C:\workspaces\Python276\PC\VS8.0\\amd64\_elementtree.lib" /MACHINE:X64 /DLL "C:\workspaces\Python276\PC\VS8.0\x64-temp-Debug\_elementtree\_elementtree.obj"
+         "C:\workspaces\Python276\PC\VS8.0\x64-temp-Debug\_elementtree\xmlparse.obj"
+         "C:\workspaces\Python276\PC\VS8.0\x64-temp-Debug\_elementtree\xmlrole.obj"
+         "C:\workspaces\Python276\PC\VS8.0\x64-temp-Debug\_elementtree\xmltok.obj"
+         C:\workspaces\Python276\PC\VS8.0\amd64\python27_d.lib
+            Creating library C:\workspaces\Python276\PC\VS8.0\\amd64\_elementtree.lib and object C:\workspaces\Python276\PC\VS8.0\\amd64\_elementtree.exp
+         _elementtree.vcxproj -> C:\workspaces\Python276\PC\VS8.0\\amd64\_elementtree.dll
+     1>Done Building Project "C:\workspaces\Python276\PC\VS8.0\_elementtree.vcxproj" (Rebuild target(s)).
 
 Build succeeded.
 
-Time Elapsed 00:00:00.01
+Time Elapsed 00:00:00.73

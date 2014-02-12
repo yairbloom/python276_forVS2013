@@ -1,5 +1,51 @@
-﻿Build started 12/02/2014 14:18:11.
+﻿Build started 12/02/2014 16:23:17.
+     1>Project "C:\workspaces\Python276\PC\VS8.0\bdist_wininst.vcxproj" on node 5 (Rebuild target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /I..\..\PC\bdist_wininst /I..\..\Include /I..\..\Modules\zlib /I..\..\Include /I..\..\PC /Zi /nologo /W3 /WX- /O1 /Ob1 /Oi /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D NDEBUG /D _WIN32 /GF /Gm- /MT /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"x64\Release\\" /Fd"x64\Release\vc120.pdb" /Gd /TC /errorReport:prompt ..\bdist_wininst\extract.c ..\bdist_wininst\install.c ..\..\Modules\zlib\adler32.c ..\..\Modules\zlib\crc32.c ..\..\Modules\zlib\inffast.c ..\..\Modules\zlib\inflate.c ..\..\Modules\zlib\inftrees.c ..\..\Modules\zlib\zutil.c
+         extract.c
+     1>..\bdist_wininst\extract.c(269): warning C4267: 'initializing' : conversion from 'size_t' to 'int', possible loss of data
+         install.c
+     1>..\bdist_wininst\install.c(866): warning C4267: 'initializing' : conversion from 'size_t' to 'int', possible loss of data
+     1>..\bdist_wininst\install.c(1120): warning C4267: 'function' : conversion from 'size_t' to 'int', possible loss of data
+     1>..\bdist_wininst\install.c(1122): warning C4267: 'function' : conversion from 'size_t' to 'int', possible loss of data
+     1>..\bdist_wininst\install.c(1470): warning C4244: '=' : conversion from 'LRESULT' to 'int', possible loss of data
+     1>..\bdist_wininst\install.c(1554): warning C4244: '=' : conversion from 'LRESULT' to 'int', possible loss of data
+     1>..\bdist_wininst\install.c(1605): warning C4244: '=' : conversion from 'LRESULT' to 'int', possible loss of data
+     1>..\bdist_wininst\install.c(1631): warning C4244: '=' : conversion from 'LRESULT' to 'int', possible loss of data
+     1>..\bdist_wininst\install.c(1675): warning C4244: '=' : conversion from 'LRESULT' to 'int', possible loss of data
+     1>..\bdist_wininst\install.c(1779): warning C4267: 'function' : conversion from 'size_t' to 'DWORD', possible loss of data
+     1>..\bdist_wininst\install.c(1801): warning C4267: 'function' : conversion from 'size_t' to 'DWORD', possible loss of data
+     1>..\bdist_wininst\install.c(2076): warning C4133: '=' : incompatible types - from 'BOOL (__cdecl *)(HWND,UINT,WPARAM,LPARAM)' to 'DLGPROC'
+     1>..\bdist_wininst\install.c(2084): warning C4133: '=' : incompatible types - from 'BOOL (__cdecl *)(HWND,UINT,WPARAM,LPARAM)' to 'DLGPROC'
+     1>..\bdist_wininst\install.c(2091): warning C4133: '=' : incompatible types - from 'BOOL (__cdecl *)(HWND,UINT,WPARAM,LPARAM)' to 'DLGPROC'
+     1>..\bdist_wininst\install.c(2098): warning C4133: '=' : incompatible types - from 'BOOL (__cdecl *)(HWND,UINT,WPARAM,LPARAM)' to 'DLGPROC'
+     1>..\bdist_wininst\install.c(2168): warning C4996: 'GetVersionExA': was declared deprecated
+                 C:\Program Files (x86)\Windows Kits\8.1\Include\um\sysinfoapi.h(433) : see declaration of 'GetVersionExA'
+     1>..\bdist_wininst\install.c(2507): warning C4267: 'initializing' : conversion from 'size_t' to 'int', possible loss of data
+         adler32.c
+         crc32.c
+         inffast.c
+         inflate.c
+         inftrees.c
+         zutil.c
+         Generating Code...
+       ResourceCompile:
+         C:\Program Files (x86)\Windows Kits\8.1\bin\x86\rc.exe /D NDEBUG /l"0x0000" /I..\..\PC /I..\..\PC\bdist_wininst /I..\..\Include /I..\..\PC /I..\..\Include /nologo /fo"x64\Release\install.res" ..\bdist_wininst\install.rc 
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(1186,5): warning MSB8012: TargetPath(C:\workspaces\Python276\PC\VS8.0\x64\Release\bdist_wininst.exe) does not match the Linker's OutputFile property value (C:\workspaces\Python276\lib\distutils\command\wininst-8.0-amd64.exe). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(1188,5): warning MSB8012: TargetName(bdist_wininst) does not match the Linker's OutputFile property value (wininst-8.0-amd64). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"..\..\lib\distutils\command\wininst-8.0-amd64.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:x64\Release\ comctl32.lib imagehlp.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /NODEFAULTLIB:LIBC /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"..\..\lib\distutils\command\wininst-8.0-amd64.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE:NO /IMPLIB:"x64\Release\bdist_wininst.lib" /MACHINE:X64 x64\Release\install.res
+         x64\Release\extract.obj
+         x64\Release\install.obj
+         x64\Release\adler32.obj
+         x64\Release\crc32.obj
+         x64\Release\inffast.obj
+         x64\Release\inflate.obj
+         x64\Release\inftrees.obj
+         x64\Release\zutil.obj
+         bdist_wininst.vcxproj -> C:\workspaces\Python276\PC\VS8.0\x64\Release\bdist_wininst.exe
+     1>Done Building Project "C:\workspaces\Python276\PC\VS8.0\bdist_wininst.vcxproj" (Rebuild target(s)).
 
 Build succeeded.
 
-Time Elapsed 00:00:00.01
+Time Elapsed 00:00:02.83

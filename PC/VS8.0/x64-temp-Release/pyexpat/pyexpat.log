@@ -1,5 +1,30 @@
-﻿Build started 12/02/2014 14:27:58.
+﻿Build started 12/02/2014 16:14:02.
+     1>Project "C:\workspaces\Python276\PC\VS8.0\pyexpat.vcxproj" on node 4 (Rebuild target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /I.\..\..\Modules\expat /I..\..\Include /I..\..\PC /Zi /nologo /W3 /WX- /O2 /Ob1 /Oi /GL /D PYEXPAT_EXPORTS /D HAVE_EXPAT_H /D XML_NS /D XML_DTD /D BYTEORDER=1234 /D XML_CONTEXT_BYTES=1024 /D XML_STATIC /D HAVE_MEMMOVE /D _WIN64 /D _M_X64 /D Py_BUILD_CORE_MODULE /D NDEBUG /D _WIN32 /D _WINDLL /GF /Gm- /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"C:\workspaces\Python276\PC\VS8.0\x64-temp-Release\pyexpat\\" /Fd"C:\workspaces\Python276\PC\VS8.0\x64-temp-Release\pyexpat\vc120.pdb" /Gd /TC /errorReport:prompt /USECL:MS_OPTERON /GS- ..\..\Modules\pyexpat.c ..\..\Modules\expat\xmlparse.c ..\..\Modules\expat\xmlrole.c ..\..\Modules\expat\xmltok.c
+     1>cl : Command line warning D9025: overriding '/GS' with '/GS-'
+         pyexpat.c
+     1>c:\workspaces\python276\include\pymath.h(22): warning C4273: 'round' : inconsistent dll linkage
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\math.h(516) : see previous definition of 'round'
+     1>..\..\Modules\pyexpat.c(942): warning C4244: '=' : conversion from 'Py_ssize_t' to 'int', possible loss of data
+         xmlparse.c
+     1>..\..\Modules\expat\xmlparse.c(1844): warning C4244: 'return' : conversion from '__int64' to 'XML_Index', possible loss of data
+         xmlrole.c
+         xmltok.c
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(1186,5): warning MSB8012: TargetPath(C:\workspaces\Python276\PC\VS8.0\\amd64\pyexpat.dll) does not match the Linker's OutputFile property value (C:\workspaces\Python276\PC\VS8.0\amd64\pyexpat.pyd). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(1187,5): warning MSB8012: TargetExt(.dll) does not match the Linker's OutputFile property value (.pyd). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"C:\workspaces\Python276\PC\VS8.0\\amd64\pyexpat.pyd" /INCREMENTAL:NO /NOLOGO /LIBPATH:C:\workspaces\Python276\PC\VS8.0\\amd64\ kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST:NO /DEBUG /PDB:"C:\workspaces\Python276\PC\VS8.0\\amd64\pyexpat.pdb" /SUBSYSTEM:WINDOWS /LTCG /TLBID:1 /DYNAMICBASE:NO /IMPLIB:"C:\workspaces\Python276\PC\VS8.0\\amd64\pyexpat.lib" /MACHINE:X64 /DLL "C:\workspaces\Python276\PC\VS8.0\x64-temp-Release\pyexpat\pyexpat.obj"
+         "C:\workspaces\Python276\PC\VS8.0\x64-temp-Release\pyexpat\xmlparse.obj"
+         "C:\workspaces\Python276\PC\VS8.0\x64-temp-Release\pyexpat\xmlrole.obj"
+         "C:\workspaces\Python276\PC\VS8.0\x64-temp-Release\pyexpat\xmltok.obj"
+         C:\workspaces\Python276\PC\VS8.0\amd64\python27.lib
+            Creating library C:\workspaces\Python276\PC\VS8.0\\amd64\pyexpat.lib and object C:\workspaces\Python276\PC\VS8.0\\amd64\pyexpat.exp
+         Generating code
+         Finished generating code
+         pyexpat.vcxproj -> C:\workspaces\Python276\PC\VS8.0\\amd64\pyexpat.dll
+     1>Done Building Project "C:\workspaces\Python276\PC\VS8.0\pyexpat.vcxproj" (Rebuild target(s)).
 
 Build succeeded.
 
-Time Elapsed 00:00:00.01
+Time Elapsed 00:00:01.68

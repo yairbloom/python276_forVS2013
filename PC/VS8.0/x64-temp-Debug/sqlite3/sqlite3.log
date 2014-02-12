@@ -1,5 +1,17 @@
-﻿Build started 12/02/2014 14:18:12.
+﻿Build started 12/02/2014 16:23:18.
+     1>Project "C:\workspaces\Python276\PC\VS8.0\sqlite3.vcxproj" on node 3 (Rebuild target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /I"..\..\..\sqlite-3.6.21" /I..\..\Include /I..\..\PC /Zi /nologo /W1 /WX- /O2 /Ob1 /Oi /D _WIN64 /D _M_X64 /D _DEBUG /D "SQLITE_API=__declspec(dllexport)" /D _WIN32 /D _WINDLL /GF /Gm- /MT /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"C:\workspaces\Python276\PC\VS8.0\x64-temp-Debug\sqlite3\\" /Fd"C:\workspaces\Python276\PC\VS8.0\x64-temp-Debug\sqlite3\vc120.pdb" /Gd /TC /errorReport:prompt /USECL:MS_OPTERON /GS- "..\..\Tools\sqlite-3.6.21\sqlite3.c"
+     1>cl : Command line warning D9025: overriding '/GS' with '/GS-'
+         sqlite3.c
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(1186,5): warning MSB8012: TargetPath(C:\workspaces\Python276\PC\VS8.0\\amd64\sqlite3.dll) does not match the Linker's OutputFile property value (C:\workspaces\Python276\PC\VS8.0\amd64\sqlite3_d.dll). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(1188,5): warning MSB8012: TargetName(sqlite3) does not match the Linker's OutputFile property value (sqlite3_d). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"C:\workspaces\Python276\PC\VS8.0\\amd64\sqlite3_d.dll" /INCREMENTAL:NO /NOLOGO /LIBPATH:C:\workspaces\Python276\PC\VS8.0\\amd64\ kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\workspaces\Python276\PC\VS8.0\\amd64\sqlite3.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE:NO /IMPLIB:"C:\workspaces\Python276\PC\VS8.0\\amd64\sqlite3.lib" /MACHINE:X64 /DLL "C:\workspaces\Python276\PC\VS8.0\x64-temp-Debug\sqlite3\sqlite3.obj"
+            Creating library C:\workspaces\Python276\PC\VS8.0\\amd64\sqlite3.lib and object C:\workspaces\Python276\PC\VS8.0\\amd64\sqlite3.exp
+         sqlite3.vcxproj -> C:\workspaces\Python276\PC\VS8.0\\amd64\sqlite3.dll
+     1>Done Building Project "C:\workspaces\Python276\PC\VS8.0\sqlite3.vcxproj" (Rebuild target(s)).
 
 Build succeeded.
 
-Time Elapsed 00:00:00.01
+Time Elapsed 00:00:02.61

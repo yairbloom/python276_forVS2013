@@ -1,5 +1,52 @@
-﻿Build started 12/02/2014 14:18:12.
+﻿Build started 12/02/2014 16:23:41.
+     1>Project "C:\workspaces\Python276\PC\VS8.0\_ctypes.vcxproj" on node 3 (Rebuild target(s)).
+     1>CustomBuild:
+         Performing Custom Build Tools
+          Assembling: C:\workspaces\Python276\Modules\_ctypes\libffi_msvc\win64.asm
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /I..\..\Modules\_ctypes\libffi_msvc /I..\..\Include /I..\..\PC /Zi /nologo /W3 /WX- /Od /D _WIN64 /D _M_X64 /D Py_BUILD_CORE_MODULE /D _DEBUG /D _WIN32 /D _WINDLL /GF /Gm- /MDd /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"C:\workspaces\Python276\PC\VS8.0\x64-temp-Debug\_ctypes\\" /Fd"C:\workspaces\Python276\PC\VS8.0\x64-temp-Debug\_ctypes\vc120.pdb" /Gd /TC /errorReport:prompt /USECL:MS_OPTERON /GS- ..\..\Modules\_ctypes\_ctypes.c ..\..\Modules\_ctypes\callbacks.c ..\..\Modules\_ctypes\callproc.c ..\..\Modules\_ctypes\cfield.c ..\..\Modules\_ctypes\libffi_msvc\ffi.c ..\..\Modules\_ctypes\malloc_closure.c ..\..\Modules\_ctypes\libffi_msvc\prep_cif.c ..\..\Modules\_ctypes\stgdict.c
+     1>cl : Command line warning D9025: overriding '/GS' with '/GS-'
+         _ctypes.c
+     1>c:\workspaces\python276\include\pymath.h(22): warning C4273: 'round' : inconsistent dll linkage
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\math.h(516) : see previous definition of 'round'
+     1>..\..\Modules\_ctypes\_ctypes.c(4148): warning C4244: 'return' : conversion from 'Py_ssize_t' to 'int', possible loss of data
+         callbacks.c
+     1>c:\workspaces\python276\include\pymath.h(22): warning C4273: 'round' : inconsistent dll linkage
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\math.h(516) : see previous definition of 'round'
+         callproc.c
+     1>c:\workspaces\python276\include\pymath.h(22): warning C4273: 'round' : inconsistent dll linkage
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\math.h(516) : see previous definition of 'round'
+         cfield.c
+     1>c:\workspaces\python276\include\pymath.h(22): warning C4273: 'round' : inconsistent dll linkage
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\math.h(516) : see previous definition of 'round'
+         ffi.c
+         malloc_closure.c
+     1>c:\workspaces\python276\include\pymath.h(22): warning C4273: 'round' : inconsistent dll linkage
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\math.h(516) : see previous definition of 'round'
+         prep_cif.c
+     1>..\..\Modules\_ctypes\libffi_msvc\prep_cif.c(166): warning C4267: '+=' : conversion from 'size_t' to 'unsigned int', possible loss of data
+         stgdict.c
+     1>c:\workspaces\python276\include\pymath.h(22): warning C4273: 'round' : inconsistent dll linkage
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\math.h(516) : see previous definition of 'round'
+         Generating Code...
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(1186,5): warning MSB8012: TargetPath(C:\workspaces\Python276\PC\VS8.0\\amd64\_ctypes.dll) does not match the Linker's OutputFile property value (C:\workspaces\Python276\PC\VS8.0\amd64\_ctypes_d.pyd). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(1187,5): warning MSB8012: TargetExt(.dll) does not match the Linker's OutputFile property value (.pyd). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(1188,5): warning MSB8012: TargetName(_ctypes) does not match the Linker's OutputFile property value (_ctypes_d). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"C:\workspaces\Python276\PC\VS8.0\\amd64\_ctypes_d.pyd" /INCREMENTAL:NO /NOLOGO /LIBPATH:C:\workspaces\Python276\PC\VS8.0\\amd64\ kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST:NO /DEBUG /PDB:"C:\workspaces\Python276\PC\VS8.0\\amd64\_ctypes_d.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /BASE:"0x1D1A0000" /DYNAMICBASE:NO /IMPLIB:"C:\workspaces\Python276\PC\VS8.0\\amd64\_ctypes.lib" /MACHINE:X64 /DLL "C:\workspaces\Python276\PC\VS8.0\x64-temp-Debug\_ctypes\win64.obj"
+         "C:\workspaces\Python276\PC\VS8.0\x64-temp-Debug\_ctypes\_ctypes.obj"
+         "C:\workspaces\Python276\PC\VS8.0\x64-temp-Debug\_ctypes\callbacks.obj"
+         "C:\workspaces\Python276\PC\VS8.0\x64-temp-Debug\_ctypes\callproc.obj"
+         "C:\workspaces\Python276\PC\VS8.0\x64-temp-Debug\_ctypes\cfield.obj"
+         "C:\workspaces\Python276\PC\VS8.0\x64-temp-Debug\_ctypes\ffi.obj"
+         "C:\workspaces\Python276\PC\VS8.0\x64-temp-Debug\_ctypes\malloc_closure.obj"
+         "C:\workspaces\Python276\PC\VS8.0\x64-temp-Debug\_ctypes\prep_cif.obj"
+         "C:\workspaces\Python276\PC\VS8.0\x64-temp-Debug\_ctypes\stgdict.obj"
+         C:\workspaces\Python276\PC\VS8.0\amd64\python27_d.lib
+            Creating library C:\workspaces\Python276\PC\VS8.0\\amd64\_ctypes.lib and object C:\workspaces\Python276\PC\VS8.0\\amd64\_ctypes.exp
+         _ctypes.vcxproj -> C:\workspaces\Python276\PC\VS8.0\\amd64\_ctypes.dll
+     1>Done Building Project "C:\workspaces\Python276\PC\VS8.0\_ctypes.vcxproj" (Rebuild target(s)).
 
 Build succeeded.
 
-Time Elapsed 00:00:00.01
+Time Elapsed 00:00:02.40

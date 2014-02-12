@@ -1,5 +1,81 @@
-﻿Build started 12/02/2014 14:18:12.
+﻿Build started 12/02/2014 16:23:44.
+     1>Project "C:\workspaces\Python276\PC\VS8.0\bz2.vcxproj" on node 2 (Rebuild target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /I"..\..\Tools\bzip2-1.0.6" /I..\..\Include /I..\..\PC /Zi /nologo /W3 /WX- /Od /D WIN32 /D _FILE_OFFSET_BITS=64 /D _WIN64 /D _M_X64 /D Py_BUILD_CORE_MODULE /D _DEBUG /D _WIN32 /D _WINDLL /GF /Gm- /MDd /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"C:\workspaces\Python276\PC\VS8.0\x64-temp-Debug\bz2\\" /Fd"C:\workspaces\Python276\PC\VS8.0\x64-temp-Debug\bz2\vc120.pdb" /Gd /TC /errorReport:prompt /USECL:MS_OPTERON /GS- ..\..\Modules\bz2module.c "..\..\Tools\bzip2-1.0.6\blocksort.c" "..\..\Tools\bzip2-1.0.6\bzlib.c" "..\..\Tools\bzip2-1.0.6\compress.c" "..\..\Tools\bzip2-1.0.6\crctable.c" "..\..\Tools\bzip2-1.0.6\decompress.c" "..\..\Tools\bzip2-1.0.6\huffman.c" "..\..\Tools\bzip2-1.0.6\randtable.c"
+     1>cl : Command line warning D9025: overriding '/GS' with '/GS-'
+         bz2module.c
+     1>c:\workspaces\python276\include\pymath.h(22): warning C4273: 'round' : inconsistent dll linkage
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\math.h(516) : see previous definition of 'round'
+     1>..\..\Modules\bz2module.c(344): warning C4267: 'function' : conversion from 'size_t' to 'int', possible loss of data
+     1>..\..\Modules\bz2module.c(357): warning C4267: 'function' : conversion from 'size_t' to 'int', possible loss of data
+     1>..\..\Modules\bz2module.c(433): warning C4267: '=' : conversion from 'size_t' to 'int', possible loss of data
+     1>..\..\Modules\bz2module.c(463): warning C4244: '=' : conversion from '__int64' to 'int', possible loss of data
+     1>..\..\Modules\bz2module.c(470): warning C4244: '=' : conversion from '__int64' to 'int', possible loss of data
+     1>..\..\Modules\bz2module.c(824): warning C4244: '=' : conversion from 'Py_ssize_t' to 'int', possible loss of data
+     1>..\..\Modules\bz2module.c(921): warning C4244: '=' : conversion from 'Py_ssize_t' to 'int', possible loss of data
+     1>..\..\Modules\bz2module.c(971): warning C4244: '=' : conversion from 'Py_ssize_t' to 'int', possible loss of data
+     1>..\..\Modules\bz2module.c(1062): warning C4267: '=' : conversion from 'size_t' to 'int', possible loss of data
+     1>..\..\Modules\bz2module.c(1123): warning C4018: '>' : signed/unsigned mismatch
+     1>..\..\Modules\bz2module.c(1132): warning C4267: '=' : conversion from 'size_t' to 'int', possible loss of data
+     1>..\..\Modules\bz2module.c(1636): warning C4244: '=' : conversion from 'Py_ssize_t' to 'unsigned int', possible loss of data
+     1>..\..\Modules\bz2module.c(1640): warning C4244: '=' : conversion from 'Py_ssize_t' to 'unsigned int', possible loss of data
+     1>..\..\Modules\bz2module.c(1658): warning C4267: '=' : conversion from 'size_t' to 'unsigned int', possible loss of data
+     1>..\..\Modules\bz2module.c(1671): warning C4267: '=' : conversion from 'size_t' to 'unsigned int', possible loss of data
+     1>..\..\Modules\bz2module.c(1716): warning C4244: '=' : conversion from 'Py_ssize_t' to 'unsigned int', possible loss of data
+     1>..\..\Modules\bz2module.c(1741): warning C4267: '=' : conversion from 'size_t' to 'unsigned int', possible loss of data
+     1>..\..\Modules\bz2module.c(1933): warning C4244: '=' : conversion from 'Py_ssize_t' to 'unsigned int', possible loss of data
+     1>..\..\Modules\bz2module.c(1937): warning C4244: '=' : conversion from 'Py_ssize_t' to 'unsigned int', possible loss of data
+     1>..\..\Modules\bz2module.c(1967): warning C4267: '=' : conversion from 'size_t' to 'unsigned int', possible loss of data
+     1>..\..\Modules\bz2module.c(1980): warning C4267: '=' : conversion from 'size_t' to 'unsigned int', possible loss of data
+     1>..\..\Modules\bz2module.c(2164): warning C4244: '=' : conversion from 'Py_ssize_t' to 'unsigned int', possible loss of data
+     1>..\..\Modules\bz2module.c(2168): warning C4244: '=' : conversion from 'Py_ssize_t' to 'unsigned int', possible loss of data
+     1>..\..\Modules\bz2module.c(2202): warning C4267: '=' : conversion from 'size_t' to 'unsigned int', possible loss of data
+     1>..\..\Modules\bz2module.c(2217): warning C4267: '=' : conversion from 'size_t' to 'unsigned int', possible loss of data
+     1>..\..\Modules\bz2module.c(2264): warning C4244: '=' : conversion from 'Py_ssize_t' to 'unsigned int', possible loss of data
+     1>..\..\Modules\bz2module.c(2268): warning C4244: '=' : conversion from 'Py_ssize_t' to 'unsigned int', possible loss of data
+     1>..\..\Modules\bz2module.c(2305): warning C4267: '=' : conversion from 'size_t' to 'unsigned int', possible loss of data
+     1>..\..\Modules\bz2module.c(2319): warning C4267: '=' : conversion from 'size_t' to 'unsigned int', possible loss of data
+         blocksort.c
+         bzlib.c
+     1>..\..\Tools\bzip2-1.0.6\bzlib.c(997): warning C4267: '=' : conversion from 'size_t' to 'Int32', possible loss of data
+     1>..\..\Tools\bzip2-1.0.6\bzlib.c(1056): warning C4267: '=' : conversion from 'size_t' to 'Int32', possible loss of data
+     1>..\..\Tools\bzip2-1.0.6\bzlib.c(1191): warning C4267: '=' : conversion from 'size_t' to 'Int32', possible loss of data
+     1>..\..\Tools\bzip2-1.0.6\bzlib.c(1417): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\string.h(118) : see declaration of 'strcat'
+     1>..\..\Tools\bzip2-1.0.6\bzlib.c(1418): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\string.h(118) : see declaration of 'strcat'
+     1>..\..\Tools\bzip2-1.0.6\bzlib.c(1423): warning C4996: 'setmode': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _setmode. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\io.h(338) : see declaration of 'setmode'
+     1>..\..\Tools\bzip2-1.0.6\bzlib.c(1423): warning C4996: 'fileno': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _fileno. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(718) : see declaration of 'fileno'
+     1>..\..\Tools\bzip2-1.0.6\bzlib.c(1425): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(211) : see declaration of 'fopen'
+     1>..\..\Tools\bzip2-1.0.6\bzlib.c(1431): warning C4996: 'fdopen': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _fdopen. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(716) : see declaration of 'fdopen'
+         compress.c
+     1>..\..\Tools\bzip2-1.0.6\compress.c(205): warning C4244: '=' : conversion from '__int64' to 'Int32', possible loss of data
+         crctable.c
+         decompress.c
+         huffman.c
+         randtable.c
+         Generating Code...
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(1186,5): warning MSB8012: TargetPath(C:\workspaces\Python276\PC\VS8.0\\amd64\bz2.dll) does not match the Linker's OutputFile property value (C:\workspaces\Python276\PC\VS8.0\amd64\bz2_d.pyd). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(1187,5): warning MSB8012: TargetExt(.dll) does not match the Linker's OutputFile property value (.pyd). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(1188,5): warning MSB8012: TargetName(bz2) does not match the Linker's OutputFile property value (bz2_d). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"C:\workspaces\Python276\PC\VS8.0\\amd64\bz2_d.pyd" /INCREMENTAL:NO /NOLOGO /LIBPATH:C:\workspaces\Python276\PC\VS8.0\\amd64\ kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST:NO /DEBUG /PDB:"C:\workspaces\Python276\PC\VS8.0\\amd64\bz2_d.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /BASE:"0x1D170000" /DYNAMICBASE:NO /IMPLIB:"C:\workspaces\Python276\PC\VS8.0\\amd64\bz2.lib" /MACHINE:X64 /DLL "C:\workspaces\Python276\PC\VS8.0\x64-temp-Debug\bz2\bz2module.obj"
+         "C:\workspaces\Python276\PC\VS8.0\x64-temp-Debug\bz2\blocksort.obj"
+         "C:\workspaces\Python276\PC\VS8.0\x64-temp-Debug\bz2\bzlib.obj"
+         "C:\workspaces\Python276\PC\VS8.0\x64-temp-Debug\bz2\compress.obj"
+         "C:\workspaces\Python276\PC\VS8.0\x64-temp-Debug\bz2\crctable.obj"
+         "C:\workspaces\Python276\PC\VS8.0\x64-temp-Debug\bz2\decompress.obj"
+         "C:\workspaces\Python276\PC\VS8.0\x64-temp-Debug\bz2\huffman.obj"
+         "C:\workspaces\Python276\PC\VS8.0\x64-temp-Debug\bz2\randtable.obj"
+         C:\workspaces\Python276\PC\VS8.0\amd64\python27_d.lib
+            Creating library C:\workspaces\Python276\PC\VS8.0\\amd64\bz2.lib and object C:\workspaces\Python276\PC\VS8.0\\amd64\bz2.exp
+         bz2.vcxproj -> C:\workspaces\Python276\PC\VS8.0\\amd64\bz2.dll
+     1>Done Building Project "C:\workspaces\Python276\PC\VS8.0\bz2.vcxproj" (Rebuild target(s)).
 
 Build succeeded.
 
-Time Elapsed 00:00:00.01
+Time Elapsed 00:00:02.75
