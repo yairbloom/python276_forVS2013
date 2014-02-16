@@ -153,6 +153,9 @@
     <Link>
       <AdditionalDependencies>$(tcl64LibDebug);$(tk64LibDebug);%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
+    <PreBuildEvent>
+      <Command>BuildDebug.bat</Command>
+    </PreBuildEvent>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
     <ClCompile>
@@ -174,6 +177,9 @@
     <Link>
       <AdditionalDependencies>$(tcl64Lib);$(tk64Lib);%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
+    <PreBuildEvent>
+      <Command>BuildRealse.bat</Command>
+    </PreBuildEvent>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='PGInstrument|Win32'">
     <ClCompile>
