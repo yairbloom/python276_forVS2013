@@ -8,7 +8,7 @@ cd ..\..\Tools\
 
 if not exist  openssl-1.0.1e\out32dll\ssleay32.dll (
     cd openssl-1.0.1e
-	perl Configure VC-WIN64A
+	perl Configure VC-WIN64A no-asm
 	call ms\do_win64a
 	nmake -f ms\ntdll.mak
 	cd ..

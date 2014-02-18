@@ -187,6 +187,9 @@
       <BaseAddress>0x1e000000</BaseAddress>
       <ImportLibrary>$(OutDir)$(PyDllName).lib</ImportLibrary>
     </Link>
+    <PreBuildEvent>
+      <Command>BuildRealse.bat</Command>
+    </PreBuildEvent>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>
@@ -246,6 +249,9 @@
       <BaseAddress>0x1e000000</BaseAddress>
       <ImportLibrary>$(OutDir)$(PyDllName)_d.lib</ImportLibrary>
     </Link>
+    <PreBuildEvent>
+      <Command>BuildDebug.bat</Command>
+    </PreBuildEvent>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='PGInstrument|Win32'">
     <ClCompile>
