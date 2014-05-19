@@ -24,6 +24,7 @@ EXTERNALS_DIR = dirname(dirname(dirname(abspath(__file__))))
 PYTHON_DIR = EXTERNALS_DIR
 PYTHON_TOOLS = os.path.join(PYTHON_DIR,'Tools')
 TCLTK_DIR =  os.path.join(PYTHON_TOOLS,'tcltk64')
+OPENSSL_DIR =  os.path.join(PYTHON_TOOLS,'openssl-1.0.1e')
 
 DST_DIR = os.environ['XjetPythonDir']
 CPU = "amd64"
@@ -121,6 +122,10 @@ if __name__ == "__main__":
 
     # Tcl dlls
     src_list = glob.glob(TCLTK_DIR + r"\bin\*.dll")
+
+    copy_files(src_list, dst_dir)
+
+    src_list = glob.glob(OPENSSL_DIR + r"\out32dll.dbg\*.dll")
 
     copy_files(src_list, dst_dir)
 
