@@ -126,11 +126,11 @@ PyAPI_FUNC(int) PyThreadState_SetAsyncExc(long, PyObject *);
 
 PyAPI_DATA(PyThreadState *) _PyThreadState_Current;
 
-#ifdef Py_DEBUG
-#define PyThreadState_GET() PyThreadState_Get()
-#else
+//#ifdef Py_DEBUG
+//#define PyThreadState_GET() PyThreadState_Get()
+//#else
 #define PyThreadState_GET() (_PyThreadState_Current)
-#endif
+//#endif
 
 typedef
     enum {PyGILState_LOCKED, PyGILState_UNLOCKED}
