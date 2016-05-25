@@ -119,6 +119,10 @@ if __name__ == "__main__":
     make_directory(dst_dir)
 
     copy_files(src_list, dst_dir)
+	
+    src_list = glob.glob(PCBUILD_DIR + r"\sqlite3*.dll")
+	
+    copy_files(src_list, dst_dir)
 
     # Tcl dlls
     src_list = glob.glob(TCLTK_DIR + r"\bin\*.dll")
